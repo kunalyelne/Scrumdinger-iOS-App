@@ -29,6 +29,7 @@
 		E8DB8F952B7796BA0098CEE3 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB8F942B7796BA0098CEE3 /* MeetingFooterView.swift */; };
 		E8DB8F9A2B779DFC0098CEE3 /* AVPlayerDing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB8F992B779DFC0098CEE3 /* AVPlayerDing.swift */; };
 		E8DB8F9C2B77A1750098CEE3 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = E8DB8F9B2B77A1750098CEE3 /* ding.wav */; };
+		E8DB8F9E2B77C6CB0098CEE3 /* NewScrumSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB8F9D2B77C6CA0098CEE3 /* NewScrumSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		E8DB8F942B7796BA0098CEE3 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		E8DB8F992B779DFC0098CEE3 /* AVPlayerDing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerDing.swift; sourceTree = "<group>"; };
 		E8DB8F9B2B77A1750098CEE3 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		E8DB8F9D2B77C6CA0098CEE3 /* NewScrumSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				E8DB8F8E2B723E990098CEE3 /* MeetingHeaderView.swift */,
 				E8DB8F902B72423B0098CEE3 /* ScrumProgressViewStyle.swift */,
 				E8DB8F942B7796BA0098CEE3 /* MeetingFooterView.swift */,
+				E8DB8F9D2B77C6CA0098CEE3 /* NewScrumSheetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				E8D355792AF258F80066C657 /* ScrumsView.swift in Sources */,
 				E8D355482AEEC2D90066C657 /* MeetingView.swift in Sources */,
 				E8D355462AEEC2D90066C657 /* ScrumdingerApp.swift in Sources */,
+				E8DB8F9E2B77C6CB0098CEE3 /* NewScrumSheetView.swift in Sources */,
 				E881AE342AF62118003372CD /* ThemeView.swift in Sources */,
 				E8D355752AF251440066C657 /* CardView.swift in Sources */,
 				E8DB8F9A2B779DFC0098CEE3 /* AVPlayerDing.swift in Sources */,
