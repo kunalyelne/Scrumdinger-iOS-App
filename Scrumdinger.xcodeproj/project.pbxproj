@@ -31,6 +31,7 @@
 		E8DB8F9C2B77A1750098CEE3 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = E8DB8F9B2B77A1750098CEE3 /* ding.wav */; };
 		E8DB8F9E2B77C6CB0098CEE3 /* NewScrumSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB8F9D2B77C6CA0098CEE3 /* NewScrumSheetView.swift */; };
 		E8DB8FA02B77FA760098CEE3 /* DetailEditSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB8F9F2B77FA760098CEE3 /* DetailEditSheetView.swift */; };
+		E8DB8FA22B7896F10098CEE3 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB8FA12B7896F10098CEE3 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		E8DB8F9B2B77A1750098CEE3 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		E8DB8F9D2B77C6CA0098CEE3 /* NewScrumSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheetView.swift; sourceTree = "<group>"; };
 		E8DB8F9F2B77FA760098CEE3 /* DetailEditSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditSheetView.swift; sourceTree = "<group>"; };
+		E8DB8FA12B7896F10098CEE3 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				E8D355722AF007F50066C657 /* DailyScrum.swift */,
 				E8DB8F922B74CC6B0098CEE3 /* ScrumTimer.swift */,
 				E8DB8F992B779DFC0098CEE3 /* AVPlayerDing.swift */,
+				E8DB8FA12B7896F10098CEE3 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			files = (
 				E881AE362AF63A84003372CD /* ThemePicker.swift in Sources */,
 				E8DB8F912B72423B0098CEE3 /* ScrumProgressViewStyle.swift in Sources */,
+				E8DB8FA22B7896F10098CEE3 /* History.swift in Sources */,
 				E8DB8F952B7796BA0098CEE3 /* MeetingFooterView.swift in Sources */,
 				E8DB8F932B74CC6B0098CEE3 /* ScrumTimer.swift in Sources */,
 				E8D355732AF007F50066C657 /* DailyScrum.swift in Sources */,
