@@ -12,6 +12,8 @@ struct ScrumsView: View {
     
     @Binding var scrums: [DailyScrum]
     @State var isPresentingNewScrumView = false
+    @Environment(\.scenePhase) private var scenePhase
+    let saveAction: ()->Void
     
     var body: some View {
         NavigationStack {
@@ -32,9 +34,10 @@ struct ScrumsView: View {
             }
         }
         .sheet(isPresented: $isPresentingNewScrumView) {
-            NavigationStack {
-                NewScrumSheetView(scrums: $scrums, isPresentingNewScrumView: $isPresentingNewScrumView)
-            }
+            NewScrumSheetView(scrums: $scrums, isPresentingNewScrumView: $isPresentingNewScrumView)
+        }
+        .onChange(of: scenePhase) {
+            if scenePhase == .inactive { saveAction() }
         }
     }
 }
@@ -42,6 +45,6 @@ struct ScrumsView: View {
 
 struct ScrumsView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrumsView(scrums: .constant(DailyScrum.sampleData))
+        ScrumsView(scrums: .constant(DailyScrum.sampleData), saveAction: {})
     }
 }
